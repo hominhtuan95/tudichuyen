@@ -1,0 +1,29 @@
+AUTO TRAIN MIL VÀ CỔ MỘ — 1 NHÂN VẬT (BẢN THỬ NGHIỆM)
+Không key, không HWID. Dành cho Windows 11, game Chiến Quốc 1.01.94.
+
+CÁCH BUILD EXE QUA GITHUB:
+1. Tạo repository GitHub mới; tải lên toàn bộ file trong thư mục này,
+   bao gồm .github/workflows/build.yml (giữ nguyên cấu trúc thư mục).
+2. Vào Actions > Build Auto Train 1NV EXE > Run workflow.
+3. Đợi hoàn thành, vào Artifacts tải file EXE về Windows.
+
+CÁCH DÙNG:
+1. Mở game ở chế độ cửa sổ (không thu nhỏ), mở EXE.
+2. Chọn đúng cửa sổ game trong danh sách.
+3. Chỉnh các thời gian (giây); Bay chỗ khác mặc định 180.
+4. Muốn TỰ DI CHUYỂN: chọn vùng thanh máu đỏ quái bằng kéo chuột.
+5. Khi KHÔNG chọn quái, bấm "Ghi mẫu KHÔNG quái".
+6. Khi ĐÃ chọn quái (thanh máu đỏ hiện ra), bấm "Ghi mẫu CÓ quái".
+7. Bật Auto. Nếu không muốn tự di chuyển, bỏ tích chức năng đó.
+
+QUAN TRỌNG:
+- Tự di chuyển là tính năng THỬ NGHIỆM. Chương trình nhấp các điểm
+  tương đối quanh tâm màn hình, KHÔNG đọc tọa độ thế giới và KHÔNG thể
+  bảo đảm nhân vật luôn ở gần vị trí ban đầu hay tránh được vật cản.
+- Để nhận diện, cửa sổ game phải hiển thị, không bị che và không thu nhỏ.
+- Một số game không nhận PostMessage gửi phím/chuột khi chạy nền; cần
+  kiểm thử trực tiếp. Không có cam kết hoạt động trước khi thử trên game.
+- Nhặt Đồ chỉ hiện checkbox, gửi Space mỗi 0,1 giây khi bật.
+- Bay chỗ khác = phím 8, Bơm Máu = phím 9, Bơm Mana = phím 0.
+- Nếu thấy nhân vật di chuyển sai, hãy TẮT AUTO ngay.
+- Chương trình không can thiệp bộ nhớ game và không vượt cơ chế bảo vệ.
